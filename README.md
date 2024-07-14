@@ -35,10 +35,6 @@ JobSearch is a web application designed to enhance the job search experience by 
    - Browse through the job listings displayed.
    - Click on a job title to view more details.
 
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
 ## Acknowledgments
 
 - Thanks to the developers of the JSearch API for providing a comprehensive job listings service.
