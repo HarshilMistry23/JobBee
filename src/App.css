@@ -85,7 +85,7 @@
   @apply font-black bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent;
 }
 .black_btn {
-  @apply  rounded-full mt-2 mb-3 border border-black bg-blue-500 py-2 px-5 text-sm text-white transition-all hover:bg-white hover:text-black;
+  @apply  rounded-full mt-2 mb-3 border border-black bg-blue-500 py-2.5 px-4 text-sm text-white transition-all hover:bg-white hover:text-black;
 }
 .container {
   padding: 0 1rem;
