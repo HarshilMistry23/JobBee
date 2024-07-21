@@ -68,6 +68,16 @@
 }
 .head_text {
   @apply mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-6xl text-center;
+  text-align: center;
+  @media (max-width: 768px) {
+    font-size: 2.25rem;
+  }
+
+  /* small screens (e.g. mobile phones) */
+  @media (max-width: 480px) {
+    font-size: 1.75rem;
+    line-height: 1.2;
+  }
 }
 .app {
   @apply relative z-10 flex justify-center items-center flex-col max-w-7xl mx-auto sm:px-16 px-6;
@@ -77,6 +87,13 @@
 }
 .label {
   @apply mt-5 text-base text-gray-700 font-bold font-sans sm:text-xl max-w-2xl mb-3 pb-1.5;
+  @media (min-width: 640px) {
+    font-size: 1.125rem;
+  }
+  /* large screens (e.g. desktops) */
+  @media (min-width: 1024px) {
+    font-size: 1.25rem;
+  }
 }
 .url_input {
   @apply block w-full rounded-md border border-gray-200 bg-white py-2.5 px-3 text-sm shadow-lg font-satoshi font-medium focus:border-black focus:outline-none focus:ring-0;
@@ -122,6 +139,9 @@
   overflow: hidden; /* required for animation */
   white-space: nowrap; /* required for animation */
   animation: typing 2s steps(50, end); /* animation name, duration, and steps */
+  @media (max-width: 480px) {
+    font-size: 1.5rem; /* adjust font size for smaller screens */
+  }
 }
 .fade-in-animation {
   opacity: 0; /* initial opacity */
