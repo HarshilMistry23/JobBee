@@ -14,11 +14,12 @@ JobSearch is a web application designed to enhance the job search experience by 
 - **Seamless Navigation**: React Router is used for smooth page transitions and navigation.
 
 ## Technologies Used:
+
   - React.js
   - Tailwind CSS
   - Axios
   - React Router
   - JSearch API
-![jobbee](https://github.com/user-attachments/assets/3510c9a5-b197-4d26-8815-a1ec95a0b7f5)
+![job1](https://github.com/user-attachments/assets/1d87fddc-d324-49f8-8917-8dabfadc2485)
 ## Acknowledgments
 - Thanks to the developers of the JSearch API for providing a comprehensive job listings service.
