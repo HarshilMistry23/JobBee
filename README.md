@@ -13,32 +13,12 @@ JobSearch is a web application designed to enhance the job search experience by 
 - **Efficient Data Management**: Uses Axios for API requests and Context API for state management.
 - **Seamless Navigation**: React Router is used for smooth page transitions and navigation.
 
-## Technologies Used
-
-- **Frontend**:
+## Technologies Used:
   - React.js
   - Tailwind CSS
   - Axios
   - React Router
-
-- **Backend**:
   - JSearch API
-
-## Usage
-
-1. **Search for Jobs**:
-   - Enter a job title and location in the search fields.
-   - Use the slider to set the minimum salary.
-   - Click the "Search" button to fetch job listings.
-
-2. **View Job Listings**:
-   - Browse through the job listings displayed.
-   - Click on a job title to view more details.
-
+![jobbee](https://github.com/user-attachments/assets/3510c9a5-b197-4d26-8815-a1ec95a0b7f5)
 ## Acknowledgments
-
 - Thanks to the developers of the JSearch API for providing a comprehensive job listings service.
-
----
-
-Feel free to adjust the details and structure according to your specific needs and preferences!
