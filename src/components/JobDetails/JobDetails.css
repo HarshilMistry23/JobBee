@@ -1,0 +1,128 @@
+/* General Typography */
+.text-2xl {
+    font-size: 1.5rem;
+    line-height: 1.2;
+    @media only screen and (max-width: 768px) {
+      font-size: 1.25rem;
+      line-height: 1.1;
+    }
+    @media only screen and (max-width: 480px) {
+      font-size: 1rem;
+      line-height: 1;
+    }
+  }
+  
+  .text-lg {
+    font-size: 1.25rem;
+    line-height: 1.2;
+    @media only screen and (max-width: 768px) {
+      font-size: 1rem;
+      line-height: 1.1;
+    }
+    @media only screen and (max-width: 480px) {
+      font-size: 0.875rem;
+      line-height: 1;
+    }
+  }
+  
+  /* Logo and Heading Container */
+  .logo-heading-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem; /* Spacing between logo and heading */
+    @media only screen and (max-width: 768px) {
+      flex-direction: column; /* Stack logo and heading vertically on smaller screens */
+      align-items: flex-start; /* Align text to the left */
+    }
+  }
+  
+  /* Logo Container */
+  .logo-container {
+    width: 64px; /* Set default width */
+    height: 64px; /* Set default height */
+    background-color: #f3f3f3;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    @media only screen and (max-width: 768px) {
+      width: 48px; /* Adjust size for tablets */
+      height: 48px;
+    }
+    @media only screen and (max-width: 480px) {
+      width: 40px; /* Adjust size for mobile */
+      height: 40px;
+    }
+  }
+  
+  .logo-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Job Description Container */
+  .job-description-container {
+    padding: 1rem;
+    background-color: #f9f9f9;
+    @media only screen and (max-width: 768px) {
+      padding: 0.75rem;
+    }
+    @media only screen and (max-width: 480px) {
+      padding: 0.5rem;
+    }
+  }
+  
+  /* Truncated Job Description Text */
+  .text-sm {
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #4a4a4a;
+    @media only screen and (max-width: 768px) {
+      font-size: 0.875rem;
+      line-height: 1.3;
+    }
+    @media only screen and (max-width: 480px) {
+      font-size: 0.75rem;
+      line-height: 1.2;
+    }
+  }
+  
+  /* Apply Button */
+  button {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    @media only screen and (max-width: 768px) {
+      font-size: 0.875rem;
+      padding: 0.4rem 0.8rem;
+    }
+    @media only screen and (max-width: 480px) {
+      font-size: 0.75rem;
+      padding: 0.3rem 0.6rem;
+    }
+  }
+  
+  /* Responsive List Box */
+  .list_box {
+    @apply rounded-lg overflow-hidden;
+    padding: 1rem;
+    @media only screen and (max-width: 768px) {
+      padding: 0.75rem;
+    }
+    @media only screen and (max-width: 480px) {
+      padding: 0.5rem;
+    }
+  }
+  
+  /* Job Description Styling */
+  .job-description {
+    padding: 0.5rem;
+    @media only screen and (max-width: 768px) {
+      padding: 0.25rem;
+    }
+    @media only screen and (max-width: 480px) {
+      padding: 0.125rem;
+    }
+  }
