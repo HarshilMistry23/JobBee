@@ -29,19 +29,26 @@ const JobDetail = () => {
   return (
     <div className="max-w-screen-md mx-auto mt-8 list_box shadow-md rounded-lg overflow-hidden">
       <div className="p-6 flex">
+        <div className="logo-heading-container flex items-center">
         {job.employer_logo && (
-          <div className="h-12 w-12 bg-gray-200 rounded-full flex items-center justify-center mr-4">
-            <img
-              src={job.employer_logo}
-              alt="Employer Logo"
-              className="h-8 w-8 object-contain"
-            />
-          </div>
-        )}
-        <div className="flex-1">
+           <div className="logo-container h-16 w-16 bg-gray-200 rounded-full flex items-center justify-center mr-4">
+           <img
+             src={job.employer_logo}
+             alt="Employer Logo"
+             className="h-full w-full object-contain"
+           />
+         </div>
+        )}  
+        {/* <div className="job-description">
           <h1 className="text-2xl font-bold">{job.employer_name}</h1>
-          <h2 className="text-lg text-gray-600">{job.job_title}</h2>
-          <div className="mt-4">
+          <h2 className="text-lg text-gray-600">{job.job_title}</h2> */}
+            <div className="heading-container">
+            <h1 className="text-2xl font-bold">{job.employer_name}</h1>
+            <h2 className="text-lg text-gray-600">{job.job_title}</h2>
+          </div>
+        </div>
+      </div>
+          <div className="job-description-container p-6">
             {job.job_description && (
               <p className="text-sm text-gray-700">
                 {truncateDescription(job.job_description)}
@@ -111,8 +118,6 @@ const JobDetail = () => {
             )}
           </div>
         </div>
-      </div>
-    </div>
   );
 };
 

@@ -18,6 +18,12 @@
   justify-content: center;
   padding: 120px 24px 160px 24px;
   pointer-events: none;
+  @media only screen and (max-width: 768px) {
+    padding: 60px 12px 80px 12px;
+  }
+  @media only screen and (max-width: 480px) {
+    padding: 40px 8px 60px 8px;
+  }
 }
 
 .main:before {
@@ -66,11 +72,18 @@
   top: 80px;
   opacity: 0.15;
 }
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
 .head_text {
   @apply mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-6xl text-center;
   text-align: center;
   @media (max-width: 768px) {
     font-size: 2.25rem;
+    line-height: 1.2;
   }
 
   /* small screens (e.g. mobile phones) */

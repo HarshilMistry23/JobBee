@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 
 const JobSearch = () => {
   
-  const { setMinSalary, setJobs, jobTitle, setJobTitle, jobLocation, setJobLocation } = useContext(StoreContext);
+  const { setJobs, jobTitle, setJobTitle, jobLocation, setJobLocation } = useContext(StoreContext);
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
 
@@ -59,7 +59,7 @@ const JobSearch = () => {
           <label className="block label w-1/4 text-right pr-4">Job Location:</label>
           <input required type="text" value={jobLocation} onChange={handleJobLocationChange} className="url_input flex-2" placeholder='Enter Job Location' />
         </div>
-        {setMinSalary(0)}
+        {/* {setMinSalary(0)} */}
         <button type="submit" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1.5 px-3 rounded focus:outline-none focus:shadow-outline self-end">
           Search
         </button>
